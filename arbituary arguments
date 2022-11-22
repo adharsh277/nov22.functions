@@ -1,0 +1,33 @@
+
+# ARBITUARY ARGUMENTS
+
+
+def my_function(*kids):
+    print("the youngest child is " + kids[2])
+
+
+my_function("babu", "messi", "richard kaka")
+# 676
+
+
+def my_function(*kids):
+    print("the richest kid in oour university is kids" + kids[3])
+
+
+my_function("ricky", "messi", "kaka", " rono ")
+# arbituary
+
+
+def my_function(child3, child2, child1):
+    print("The youngest child is " + child3)
+
+
+my_function(child1="Emil", child2="Tobias", child3="Linus")
+# 2
+
+
+def my_function(child3, child2, child1):
+    print("The youngest child is " + child2)
+
+
+my_function(child1="elliee", child2="nobita", child3="uuuhbj")
